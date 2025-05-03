@@ -1,0 +1,5 @@
+public class EmailNotification implements INotificationStrategy {
+    public void send(String email) {
+        System.debug('Email sent to: '+ email);
+    }
+}
